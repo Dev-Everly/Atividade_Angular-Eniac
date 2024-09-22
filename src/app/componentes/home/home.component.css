@@ -1,0 +1,53 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* Centralizar o conteúdo da Home */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Estilos para o card de boas-vindas */
+  .home-card {
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título maior e mais destacado */
+  .home-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #3f51b5; /* Azul Angular Material */
+    margin-bottom: 10px;
+  }
+  
+  /* Subtítulo e descrições */
+  .home-description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Estilos globais */
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #3f51b5;
+    margin-right: 15px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

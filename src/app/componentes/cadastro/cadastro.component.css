@@ -1,0 +1,32 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* Centralizar o card na tela */
+.cadastro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos adicionais para o card */
+  .cadastro-card {
+    width: 400px;
+    padding: 20px;
+  }
+  
+  /* Tornar os campos de formulário com largura total */
+  .full-width {
+    width: 100%;
+  }
+  
+  mat-card {
+    margin: 20px;
+  }
+
+  mat-card-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #3f51b5; /* Azul Angular Material */
+    margin-bottom: 10px;
+  }
